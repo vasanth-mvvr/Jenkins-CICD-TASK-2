@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
 
 const port = process.env.PORT || 3000;
 
-// 🟢 This keeps the server running
+// This keeps the server running
 app.listen(port, () => {
   console.log(` Server running on port ${port}`);
 });
